@@ -2,19 +2,35 @@
 <head>
 	<title>Home</title>
 	<style type="text/css">
+		#main {
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			transform: translateX(-50%);
+			text-align: center;
+		}
 		#avatar {
-			margin: auto;
-			margin-top: 20%;
 			background: url("./images/avatar.jpg");
 			background-position: center, center;
 			width: 400px;
 			height: 265px;
-			border: 3px #CCCCCC solid;
+			border: 2px #CCCCCC solid;
 			border-radius: 20%/30%;
 		}
 	</style>
 </head>
 <body>
-	<div id="avatar"></div>
+	<div id="main">
+		<div id="avatar"></div>
+		<h1 id="name">Sosnin Denis</h1>
+		<div id="links">
+			<a href="https://instagram.com/char.abc/">
+				<img src="https://instagram.com/favicon.ico" title="instagram">
+			</a>
+			<a href="https://www.linkedin.com/in/denis-s-37859984/">
+				<img src="https://content.linkedin.com/etc/designs/linkedin/katy/global/clientlibs/img/logo_mobile_37x28.png" title="linkedin">
+			</a>
+		</div>
+	</div>
 </body>
 </html>
